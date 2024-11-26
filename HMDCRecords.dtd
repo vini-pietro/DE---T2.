@@ -1,0 +1,22 @@
+<!ELEMENT HMDCRecords (Record+)>
+<!ELEMENT Record (client_identifier, principal_diagnosis, Admission, Separation)>
+<!ELEMENT client_identifier (#PCDATA)>
+<!ELEMENT principal_diagnosis (#PCDATA)>
+<!ELEMENT Admission (account_number, admission_date, admission_time, admission_status, ward, clinician_on_admission, specialty_of_clinician_on_admission, intended_length_of_stay, care_type, accommodation_occupied)>
+<!ELEMENT account_number (#PCDATA)>
+<!ELEMENT admission_date (#PCDATA)>
+<!ELEMENT admission_time (#PCDATA)>
+<!ELEMENT admission_status (#PCDATA)>
+<!ELEMENT ward (#PCDATA)>
+<!ELEMENT clinician_on_admission (#PCDATA)>
+<!ELEMENT specialty_of_clinician_on_admission (#PCDATA)>
+<!ELEMENT intended_length_of_stay (#PCDATA)>
+<!ELEMENT care_type (#PCDATA)>
+<!ELEMENT accommodation_occupied (#PCDATA)>
+<!ELEMENT Surgical_procedure (principal_procedure?,date_of_procedure?,clinician_performing_procedure?)>
+<!ELEMENT Separation (separation_date, separation_time, mode_of_separation, clinician_on_separation, specialty_of_clinician_on_separation)>
+<!ELEMENT separation_date (#PCDATA)>
+<!ELEMENT separation_time (#PCDATA)>
+<!ELEMENT mode_of_separation (#PCDATA)>
+<!ELEMENT clinician_on_separation (#PCDATA)>
+<!ELEMENT specialty_of_clinician_on_separation (#PCDATA)>

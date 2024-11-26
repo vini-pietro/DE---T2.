@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Patients SYSTEM "PatientRecords.dtd">
+<Patients>
+    <Patient>
+        <ClientIdentifier>P001</ClientIdentifier>
+        <Person>
+            <Client_photo>https://oxclinic.lakesmedical.com.au/DFIOPC58H8</Client_photo>
+            <Client_voice_signature>https://oxclinic.lakesmedical.com.au/DFIOPC58H8</Client_voice_signature>
+            <first_forename>John</first_forename>
+            <surname>Doe</surname>
+            <date_of_birth>1988-05-15</date_of_birth>
+            <indigenous_status>Non-Aboriginal</indigenous_status>
+            <country_of_birth>Western Australia</country_of_birth>
+            <employment_status>3</employment_status>
+            <marital_status>5</marital_status>
+            <gender_code>1</gender_code>
+            <language>English</language>
+            <Medicare>
+                <MedicareNumber>1234567890</MedicareNumber>
+                <medicare_person_number>1</medicare_person_number>
+                <insurance_status>Insured</insurance_status>
+            </Medicare>
+        </Person>
+        <PatientAddress>
+            <residential_address>123 Example Street</residential_address>
+            <postcode>6000</postcode>
+            <state_or_territory>5</state_or_territory>
+        </PatientAddress>
+    </Patient>
+</Patients>

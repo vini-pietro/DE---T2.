@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HMDCRecords SYSTEM "HMDCRecords.dtd">
+<HMDCRecords>
+    <Record>
+        <client_identifier>P001</client_identifier>
+        <principal_diagnosis>Flu</principal_diagnosis>
+        <Admission>
+            <account_number>AD12345</account_number>
+            <admission_date>11/04/2024</admission_date>
+            <admission_time>09:30</admission_time>
+            <admission_status>4</admission_status>
+            <ward>Ward A</ward>
+            <clinician_on_admission>Dr. Smith</clinician_on_admission>
+            <specialty_of_clinician_on_admission>General Medicine</specialty_of_clinician_on_admission>
+            <intended_length_of_stay>1</intended_length_of_stay>
+            <care_type>Day Procedure</care_type>
+            <accommodation_occupied>Bed</accommodation_occupied>
+        </Admission>
+        <Separation>
+            <separation_date>2024-11-15</separation_date>
+            <separation_time>17:00</separation_time>
+            <mode_of_separation>1</mode_of_separation>
+            <clinician_on_separation>Dr. Smith</clinician_on_separation>
+            <specialty_of_clinician_on_separation>General Medicine</specialty_of_clinician_on_separation>
+        </Separation>
+    </Record>
+</HMDCRecords>
